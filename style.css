@@ -149,7 +149,7 @@ nav.scroll button path {
     margin-bottom: 3.2rem;
 }
 
-#home button {
+#home a {
     color: var(--button-text);
     background-color: var(--primary-color);
     font-size: 1.4rem;
@@ -165,6 +165,11 @@ nav.scroll button path {
     justify-content: center;
     gap: 1.6rem;
     margin-inline: auto;
+    text-decoration: none;
+}
+
+#home a:hover {
+    background-color: #00453A;
 }
 
 #home img {
@@ -317,10 +322,56 @@ nav button {
 }
 
 /* about */
+#about {
+    text-align: left;
+}
+
 #about header h2 {
     margin-bottom: 2.4rem;
 }
 
 #about img {
     margin-top: 6rem;
+}
+
+/* contact */
+#contact {
+    text-align: left;
+}
+
+#contact header {
+    margin-bottom: 3.2rem;
+}
+
+#contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+#contact li {
+    display: flex;
+    gap: .8rem;
+}
+
+#contact .btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    display: flex;
+    border: none;
+    border-radius: 4rem;
+    margin-top: 3.2rem;
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 26.3rem;
+    height: 6.2rem;
+}
+
+#contact .btn:hover {
+    background-color: #00453A;
 }
