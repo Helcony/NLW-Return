@@ -1,11 +1,24 @@
-// nav scroll
-const nav = document.getElementById("nav")
-
+window.addEventListener("scroll", onScroll)
+onScroll()
+// nav scroll and back to top button
 function onScroll() {
+    showNavOnScroll()
+    showBackToTopOnScroll()
+}
+
+function showNavOnScroll() {
     if(scrollY > 0) {
         nav.classList.add("scroll")
     } else {
         nav.classList.remove("scroll")
+    }
+}
+
+function showBackToTopOnScroll() {
+    if(scrollY > 400) {
+        backToTop.classList.add("show")
+    } else {
+        backToTop.classList.remove("show")
     }
 }
 
@@ -29,7 +42,9 @@ ScrollReveal({
 #services,
 #services header,
 #services .card,
-#about,
 #about header,
 #about .content p,
-#about .content img`)
+#about .content img,
+#contact header,
+#contact .content ul,
+#contact .content a`)
