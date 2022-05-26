@@ -32,19 +32,19 @@ function closeMenu() {
 }
 
 // scrollreveal
-ScrollReveal({
-    origin: "top",
-    distance: "3rem",
-    duration: 700,
-}).reveal(`#home,
-#home img,
-#home .stat,
-#services,
-#services header,
-#services .card,
-#about header,
-#about .content p,
-#about .content img,
-#contact header,
-#contact .content ul,
-#contact .content a`)
+//ScrollReveal({
+//    origin: "top",
+//    distance: "3rem",
+//    duration: 700,
+//}).reveal(`#home,
+//#home img,
+//#home .stat,
+//#services,
+//#services header,
+//#services .card,
+//#about header,
+//#about .content p,
+//#about .content img,
+//#contact header,
+//#contact .content ul,
+//#contact .content a`)
